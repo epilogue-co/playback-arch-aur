@@ -17,8 +17,8 @@ source=(
   "playback.sh"
   "60-gb-operator.rules"
 )
-source_x86_64=("Playback-$pkgver.AppImage::https://releases.epilogue.co/desktop/playback/$pkgver/release/linux/Playback.AppImage")
-source_aarch64=("Playback-$pkgver.AppImage::https://releases.epilogue.co/desktop/playback/$pkgver/release/linux/Playback.arm64.AppImage")
+source_x86_64=("Playback-$pkgver.AppImage::https://releases.epilogue.co/desktop/playback/$pkgver/__BRANCH__/linux/Playback.AppImage")
+source_aarch64=("Playback-$pkgver.AppImage::https://releases.epilogue.co/desktop/playback/$pkgver/__BRANCH__/linux/Playback.arm64.AppImage")
 sha512sums=('__SHA512SUM_PLAYBACK_SH__'
             '__SHA512SUM_UDEV_RULES__')
 sha512sums_x86_64=('__SHA512SUM_APPIMAGE_AMD64__')
