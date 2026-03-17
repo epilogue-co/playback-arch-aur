@@ -1,4 +1,8 @@
-pkg
-src
+# makepkg build artifacts
+pkg/
+src/
 *.zst
 *.AppImage
+
+# Generated PKGBUILD
+PKGBUILD
